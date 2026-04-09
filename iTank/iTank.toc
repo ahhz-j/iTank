@@ -22,4 +22,8 @@ Data\iTank_SE.lua
 Data\data.lua
 Data\data_tbc.lua
 Data\data_mop.lua
+UI\Util.lua
+UI\HelpFrame.lua
+UI\OptionsFrame.lua
+UI\MainFrame.lua
 iTank.lua
