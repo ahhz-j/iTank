@@ -8,7 +8,7 @@ function ITank_LoadSets(addSets, addRange)
     -- T6 & T6SW (8件套) - 时光服 P11：海加尔山之战 MH / 黑暗神庙 BT；P5：太阳之井高地 SWP（T6 部件掉落）
     addRange(668, 684, 8)
     -- T7 (5件套) - 时光服 P3，纳克萨玛斯 Naxxramas / 永恒之眼 EoE / 黑曜石圣殿 OS
-    addRange(18, 36, 5)
+    addRange(787, 805, 5)
     -- T8 (5件套) - 时光服 P6，奥杜尔 Ulduar
     addRange(69, 87, 5)
     -- T9 (5件套) - 时光服 P4，大十字军的试炼 ToC / 祖尔格拉布 ZG
@@ -16,6 +16,6 @@ function ITank_LoadSets(addSets, addRange)
     -- T10 (5件套) - 时光服 P10，冰冠堡垒 ICC / 红玉圣殿 RS
     addRange(228, 246, 5)
     -- T2.5 (5件套) - 时光服 P9，安其拉神殿 AQ40
-    addSets({496, 505, 509, 501, 493, 497, 499, 503, 501}, 5)
+    addSets({496, 505, 509, 501, 493, 497, 499, 503}, 5)
 end
 

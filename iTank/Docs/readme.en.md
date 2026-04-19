@@ -20,6 +20,8 @@
   - "T": Show/Hide defense panel
   - "S": Open settings
   - "?": Open help
+- Display logic:
+  - Panel height is dynamically calculated based on the current sub-panel height.
 
 ## Settings
 - Interface options (sliders are "title first, slider after" and left-aligned):
@@ -32,7 +34,37 @@
   - Display talent hit information
   - Display racial hit information
   - Display set hit information
-  - Death Knight hit attribute: 8% physical / 14% spell
+  - Death Knight hit attribute: 8% physical / 14% spell (choose one, automatically grayed out for non-Death Knights)
+- All settings are written to SavedVariables: `iTankDB`.
+
+## About Us Panel
+- Below the text description, display 5 icons (32×32, centered): bilibili, wclbox, dd, afdian, kdocs.
+- Hover to display localized tooltip text.
+- Click to write the corresponding link in the chat input box and select it:
+  - Bilibili: https://space.bilibili.com/294757892
+  - WCLBox: https://www.wclbox.com/games/1/StringItem/4399
+  - NetEase DD: https://dd.163.com/room/311796
+  - Afdian: https://afdian.com/a/ahhz147344
+  - Kdocs: https://www.kdocs.cn/l/crBKZnyimQbH
+
+## Help
+- The help panel only displays a "Data Model" summary:
+  - Hit: 8%; Precision (Proficiency) 26; Defense Rating 540–541
+  - Block value diminishing returns after 2400 (shield-wielding classes)
+  - iTank and iDPS ratings indicate directionality, not specific numerical gains
+
+## Localization
+- Provides zhCN, zhTW, enUS three language packs.
+- All new options and tooltip texts have been synchronized in three languages.
+
+## File Structure
+- `iTank.toc`: Addon metadata
+- `iTank.lua`: Main logic (events, slash commands, main interface and settings interface)
+- `data.lua`: Data and calculation logic
+- `Localization/`: Multilingual resources
+- `Media/`: Icons and materials
+- `Changelog.md`: Version update log
+- `readme.md`: Usage instructions
 
 ## Version History
 - See `Changelog.md` for details.

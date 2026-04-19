@@ -41,6 +41,40 @@
 - SE 定制信息支持持久化写入 `iTankSEDB`（WTF 文件），用于覆盖默认的图标与多语言文案。
 - 默认模板仍保留在 `Data/iTank_SE.lua`，当 `iTankSEDB` 未配置某字段时自动回退。
 - 适用场景：给不同接收用户分发不同的 WTF 定制文件，即可保持同一插件包下显示不同 SE 版本信息。
+- `iTankSEDB` 结构示例：
+  - `iconPath = "Interface\\AddOns\\iTank\\Media\\your_logo.jpg"`
+  - `text.zhCN.title / text.zhCN.body`
+  - `text.zhTW.title / text.zhTW.body`
+  - `text.enUS.title / text.enUS.body`
+
+## 关于我们面板
+- 文本说明下方显示 5 个图标（32×32，居中）：bilibili、wclbox、dd、afdian、kdocs。
+- 悬停显示本地化提示文字。
+- 点击在聊天输入框写入相应链接并选中：
+  - Bilibili：https://space.bilibili.com/294757892
+  - WCLBox：https://www.wclbox.com/games/1/StringItem/4399
+  - NetEase DD：https://dd.163.com/room/311796
+  - 爱发电：https://afdian.com/a/ahhz147344
+  - 金山文档：https://www.kdocs.cn/l/crBKZnyimQbH
+
+## 帮助
+- 帮助面板仅显示“数据模型”摘要：
+  - 命中：8%；精准（熟练）26；防御等级 540–541
+  - 格挡值 2400 以后收益递减（持盾职业）
+  - iTank 与 iDPS 评分表示方向性，不代表具体数值增益
+
+## 本地化
+- 提供 zhCN、zhTW、enUS 三种语言包。
+- 所有新选项与提示文本已同步三语本地化。
+
+## 文件结构
+- `iTank.toc`：插件元数据
+- `iTank.lua`：主逻辑（事件、斜杠命令、主界面与设置界面）
+- `data.lua`：数据与计算逻辑
+- `Localization/`：多语言资源
+- `Media/`：图标与素材
+- `Changelog.md`：版本更新记录
+- `readme.md`：使用说明
 
 ## 版本记录
-- 详见 `Changelog.md`。
+- 详见 `Changelog.md`。***

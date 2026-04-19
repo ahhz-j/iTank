@@ -3,7 +3,7 @@
 ## Title-zhCN: ahhz's |cffff0000i|rTank - 坦克宝典
 ## Notes: The addon version of ahhz's iTank WeakAura.|nIt includes all features of the WA version with greater freedom to customize the panel.|nType "/itank" to open the settings interface.|nContact us for feedback via: WeChat/Novice Box/Netease DD/In-game mail (Character: itank@Titan Server 2-Alliance).|nMore features and improvements coming soon.
 ## Notes-zhCN: ahhz's iTank WA的插件化作品。在对话框输入“/itank”可以调用设置界面。|n插件版的iTank拥有WA版本的全部功能，并拥有更高的自由度。可根据喜好搭配iTank面板。|n如您有任何问题、反馈可通过以下方式联络我们：|n·WeChat/新手盒子/网易DD/游戏内信件（角色名：itank@时光服2-联盟）|n更多功能、调整、完善将会在后续版本中陆续进行。
-## IconTexture: Interface\AddOns\iTank\Media\ilogo.tga
+## IconTexture: Interface\AddOns\iTank\Media\ilogo.png
 ## Category-enUS: ahhz
 ## Category-zhCN: ahhz插件集
 ## Author: ahhz & 霜语 @iTank Studio Works.
