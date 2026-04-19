@@ -1,7 +1,7 @@
 # iTank Addon
 
 ## Overview
-- Version: 0.9.8
+- Version: 1.0.0
 - Description: iTank is an independent addon oriented towards tank and DPS attribute display, providing partitioned display of basic information, iDPS and defense data, as well as configurable interface options.
 
 ## Installation and Startup

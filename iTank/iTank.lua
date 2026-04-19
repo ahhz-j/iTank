@@ -11,7 +11,7 @@ ITank = ITank or {}
 ns = ns or {}
 ns.ITank = ITank
 
-local ITANK_VERSION = "0.9.8"
+local ITANK_VERSION = "1.0.0"
 ITank.VERSION = ITANK_VERSION
 
 -- 主表：存储配置
