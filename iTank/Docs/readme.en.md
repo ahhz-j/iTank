@@ -1,14 +1,14 @@
 # iTank Addon
 
 ## Overview
-- Version: 1.0.1
-- Description: iTank is an independent addon oriented towards tank and DPS attribute display, providing partitioned display of basic information, iDPS and defense data, as well as configurable interface options.
+- Version: 1.0.2
+- Description: "iTank - Tank Codex" was converted from the WeakAuras project of the same name. It is a standalone attribute-statistics addon designed for World of Warcraft tank and DPS players. The addon provides partitioned displays for basic information, iDPS data, and defense data, offering intuitive and convenient reference data for gear setup decisions. The settings panel allows players to adjust the interface through options to better fit personal preferences. Thanks to the integration work of the addon package author, iTank has effectively become the most widely distributed, most downloaded, and most broadly installed tank/DPS data addon in the world.
 
 ## Installation and Startup
-- Copy the `iTank` directory to `Interface\AddOns\`.
-- Enable iTank in the character selection interface.
-- In-game, type `/itank` to open or close the settings window.
-- Open the character panel (default `C`), the main interface is displayed below the character panel.
+- Copy the iTank directory to Interface\AddOns\.
+- Enable iTank on the character selection screen.
+- In game, type /itank to open or close the settings window.
+- Open the character panel (default C); the main interface is displayed below the character panel.
 
 ## Main Interface
 - Panel structure (from top to bottom):
@@ -35,7 +35,17 @@
   - Display racial hit information
   - Display set hit information
   - Death Knight hit attribute: 8% physical / 14% spell (choose one, automatically grayed out for non-Death Knights)
-- All settings are written to SavedVariables: `iTankDB`.
+- General settings are written to SavedVariables: iTankDB.
+
+## Customized Persistence
+- SE customization data supports persistent storage in iTankSEDB (the WTF file) and can override the default icon and multilingual text.
+- The default template remains in Data/iTank_SE.lua, and fields missing from iTankSEDB automatically fall back to the template values.
+- Use case: distribute different WTF customization files to different recipients while keeping the same addon package and showing different SE version information.
+- iTankSEDB structure example:
+  - iconPath = "Interface\\AddOns\\iTank\\Media\\your_logo.jpg"
+  - text.zhCN.title / text.zhCN.body
+  - text.zhTW.title / text.zhTW.body
+  - text.enUS.title / text.enUS.body
 
 ## About Us Panel
 - Below the text description, display 5 icons (32×32, centered): bilibili, wclbox, dd, afdian, kdocs.
@@ -58,13 +68,15 @@
 - All new options and tooltip texts have been synchronized in three languages.
 
 ## File Structure
-- `iTank.toc`: Addon metadata
-- `iTank.lua`: Main logic (events, slash commands, main interface and settings interface)
-- `data.lua`: Data and calculation logic
-- `Localization/`: Multilingual resources
-- `Media/`: Icons and materials
-- `Changelog.md`: Version update log
-- `readme.md`: Usage instructions
+- iTank.toc: Main addon metadata and load order
+- dd_author.toc: Additional toc / distribution marker file
+- iTank.lua: Main entry logic (events, slash commands, and shared runtime)
+- Data/: Data and template resources (Sets.lua, data.lua, data_tbc.lua, data_mop.lua, iTank_SE.lua)
+- UI/: UI modules (MainFrame.lua, OptionsFrame.lua, HelpFrame.lua, Util.lua)
+- Localization/: Multilingual resources (zhCN.lua, zhTW.lua, enUS.lua)
+- Media/: Icons and media assets
+- Docs/: Supplementary documents (Changelog.md, readme.en.md, readme.zhTW.md, MediaUsage.md)
+- readme.md: Chinese usage guide
 
 ## Version History
-- See `Changelog.md` for details.
+- See Docs/Changelog.md for details.

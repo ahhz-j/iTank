@@ -159,10 +159,10 @@ L["INFO_HIT_MOP"] = [[
 L["INFO_ABOUT_US"] = [[
 iTank Studio Works
 
-UI&创意：ahhz
+UI & Creative: ahhz
 |cffffffffhttps://space.bilibili.com/294757892|r
 
-编码：霜语、ahhz
+Coding: Shuangyu(Spog), ahhz
 |cffffffffhttps://space.bilibili.com/649961|r
 
 Click the icons to get the corresponding link

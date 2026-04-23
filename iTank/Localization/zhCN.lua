@@ -266,19 +266,4 @@ L["SPEC_BALANCE"] = "平衡"
 L["SPEC_FERAL_COMBAT"] = "野性战斗"
 L["SPEC_FROST"] = "冰霜"
 
--- Stats
-L["INTELLECT"] = "智力" --备用备查备清理
-L["SPIRIT"] = "精神" --备用备查备清理
-L["SPELL_POWER"] = "法伤" --备用备查备清理
-L["HIT"] = "命中" --备用备查备清理
-L["HASTE"] = "急速" --备用备查备清理
-L["CRIT"] = "暴击" --备用备查备清理
-L["STRENGTH"] = "力量" --备用备查备清理
-L["AGILITY"] = "敏捷" --备用备查备清理
-L["ATTACK_POWER"] = "攻强" --备用备查备清理
-L["ARP"] = "破甲" --备用备查备清理
-L["EXPERTISE"] = "精准" --备用备查备清理
 
-L["HIT_TALENT_FMT"] = "天赋:%d%%" --备用备查备清理
-L["HIT_RACE_FMT"] = "种族:%d%%" --备用备查备清理
-L["HIT_SET_FMT"] = "套装:%d%%" --备用备查备清理

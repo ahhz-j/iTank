@@ -7,13 +7,8 @@
 ## Category-enUS: ahhz
 ## Category-zhCN: ahhz插件集
 ## Author: ahhz & 霜语 @iTank Studio Works.
-## Version: 1.0.1
+## Version: 1.0.2
 ## SavedVariables: iTankDB, iTankSEDB
-
-# 记录节点要求：
-# 1. 除非有特殊说明，将当前版本号推进1（例如：将0.1.5推进为0.1.6）。
-# 2. 将当前版本变更写入一个进度文件 Changelog.md。
-# 3. 以当前插件名+版本号为文件夹名将当前版本备份至工作区 warehouse 文件夹内。
 
 
 Localization\enUS.lua
